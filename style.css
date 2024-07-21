@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(244, 241, 222);
 }
 
 html {
@@ -47,18 +48,17 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(41, 50, 21);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: gray;
+  color: rgb(146, 146, 146);
   text-decoration: underline;
+  text-decoration-color: rgb(146, 146, 146);
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
   /* underline-offset gives space bewteen the word and underline */
-  /* text-decoration-color: rgb(181, 181, 181); */
 }
 
 .logo {
