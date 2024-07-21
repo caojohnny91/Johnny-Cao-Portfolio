@@ -48,15 +48,16 @@ nav {
 }
 
 a {
-  color: rgb(41, 50, 21);
+  /* color: rgb(41, 50, 65); */
+  color: rgb(255, 132, 0);
   text-decoration: none;
-  text-decoration-color: white;
+  /* text-decoration-color: white; */
 }
 
 a:hover {
-  color: rgb(146, 146, 146);
+  color: rgb(255, 184, 108);
   text-decoration: underline;
-  text-decoration-color: rgb(146, 146, 146);
+  text-decoration-color: rgb(255, 184, 108);
   text-underline-offset: 1rem;
   /* underline-offset gives space bewteen the word and underline */
 }
@@ -67,4 +68,24 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+}
+
+/* HMABURGER MENU */
+
+#hamburger-nav {
+  /* display: none; */
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
 }
