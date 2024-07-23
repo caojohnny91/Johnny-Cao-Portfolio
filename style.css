@@ -251,7 +251,7 @@ section {
 
 .btn-color-1 {
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 0.1rem;
   background: rgb(142, 202, 230);
   border-color: rgb(33, 158, 188);
   color: white;
@@ -259,14 +259,14 @@ section {
 
 .btn-color-1:hover {
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 0.1rem;
   background: rgb(33, 158, 188);
   color: white;
 }
 
 .btn-color-2 {
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 0.1rem;
   border-color: rgb(251, 133, 0);
   background-color: rgb(255, 183, 3);
   color: white;
@@ -274,4 +274,58 @@ section {
 
 .btn-color-2:hover {
   background-color: rgb(251, 133, 0);
+}
+
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  /* fixed position within the  #about section*/
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border-style: solid;
+  border: 0.1rem solid rgb(85, 85, 85);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
