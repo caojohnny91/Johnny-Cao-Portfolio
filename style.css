@@ -250,24 +250,18 @@ section {
 }
 
 .btn-color-1 {
-  border-style: solid;
-  border-width: 0.1rem;
   background: rgb(142, 202, 230);
-  border-color: rgb(33, 158, 188);
+  border: 0.1rem solid rgb(33, 158, 188);
   color: white;
 }
 
 .btn-color-1:hover {
-  border-style: solid;
-  border-width: 0.1rem;
   background: rgb(33, 158, 188);
   color: white;
 }
 
 .btn-color-2 {
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: rgb(251, 133, 0);
+  border: 0.1rem solid rgb(251, 133, 0);
   background-color: rgb(255, 183, 3);
   color: white;
 }
@@ -314,7 +308,6 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border-style: solid;
   border: 0.1rem solid rgb(85, 85, 85);
   text-align: center;
 }
