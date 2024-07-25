@@ -1,5 +1,6 @@
 @media screen and (max-width: 1400px) {
   /* when screen size higher than 1400px, these stylings will NOT be in effect */
+
   #hero {
     height: 80vh;
     margin-bottom: 6rem;
@@ -51,6 +52,16 @@
 
   .about-containers {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-height: 775px) {
+  #hero {
+    margin-bottom: -2rem;
+  }
+
+  #contact {
+    margin-bottom: -2rem;
   }
 }
 
