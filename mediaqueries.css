@@ -1,5 +1,16 @@
+@media screen and (max-width: 1400px) {
+  /* when screen size higher than 1400px, these stylings will NOT be in effect */
+  #hero {
+    height: 80vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  /* when screen size is lower than 1200px, these stylings will go into effect */
+  /* when screen size is higher than 1200px, these stylings will NOT be in effect */
   #desktop-nav {
     display: none;
   }
@@ -7,6 +18,37 @@
   #hamburger-nav {
     display: flex;
   }
-}
 
-/* make more responsive with different screen sizes? */
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  #hero,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-containers {
+    margin-top: 0;
+  }
+}
