@@ -316,7 +316,7 @@ section {
   padding: 1.5rem;
   flex: 1;
   border-radius: 2rem;
-  border: 0.1rem solid rgb(85, 85, 85);
+  border: 0.1rem solid rgb(163, 163, 163);
   text-align: center;
 }
 
@@ -400,4 +400,49 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+}
+
+/* porject title is position left, but need center */
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+#contact .title {
+  color: rgb(33, 158, 188);
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid rgb(163, 163, 163);
+  border-radius: 2rem;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.6rem;
+  width: 2.6rem;
 }
