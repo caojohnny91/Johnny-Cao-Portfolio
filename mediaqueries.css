@@ -5,6 +5,7 @@
     height: 80vh;
     margin-bottom: 6rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
@@ -24,7 +25,7 @@
   }
 
   #hero {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 
   #contact {
@@ -57,7 +58,7 @@
 
 @media screen and (max-width: 1399px) and (min-height: 775px) {
   #hero {
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
   }
 
   #contact {
