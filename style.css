@@ -383,22 +383,22 @@ article .icon {
 }
 
 #projects .about-containers {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 1.5rem;
+  margin: 0 auto;
+  /* Center container itself */
 }
 
 #projects .details-container {
   box-sizing: border-box;
-}
-
-#projects .details-container:nth-child(3n + 1) {
-  justify-self: center;
-}
-
-.color-container {
-  border-color: rgb(163, 163, 163);
+  flex: 1 1 300px;
+  /* Ensure items take up space equally and wrap */
+  max-width: calc(33.33% - 1rem);
+  /* Make sure each item is responsive */
+  min-width: 300px;
+  /* Ensure minimum width */
 }
 
 .project-img {
