@@ -50,7 +50,6 @@ nav {
 a {
   color: rgb(251, 133, 0);
   text-decoration: none;
-  /* text-decoration-color: white; */
 }
 
 a:hover {
@@ -306,10 +305,9 @@ section {
 
 .arrow {
   position: absolute;
-  /* fixed position within the section*/
+  /* fixed position within the section */
   right: -5rem;
   bottom: 2.5rem;
-  /* adjust arrow positioning */
 }
 
 .details-container {
@@ -361,14 +359,12 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-evenly;
-  /* justify-content: space-around; */
 }
 
 article {
   display: flex;
   width: 10rem;
   justify-content: left;
-  /* justify-content: space-around; */
   gap: 0.5rem;
 }
 
@@ -386,9 +382,23 @@ article .icon {
   color: rgb(251, 133, 0);
 }
 
+#projects .about-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+#projects .details-container {
+  box-sizing: border-box;
+}
+
+#projects .details-container:nth-child(3n + 1) {
+  justify-self: center;
+}
+
 .color-container {
   border-color: rgb(163, 163, 163);
-  /* background: rgb(250, 250, 250); */
 }
 
 .project-img {
@@ -401,8 +411,6 @@ article .icon {
   margin: 1rem;
   color: black;
 }
-
-/* porject title is position left, but need center */
 
 /* CONTACT */
 
