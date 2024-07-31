@@ -399,6 +399,12 @@ article .icon {
   /* Make sure each item is responsive */
   min-width: 300px;
   /* Ensure minimum width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  border-radius: 2rem;
 }
 
 .project-img {
@@ -416,6 +422,15 @@ article .icon {
 .project-description {
   margin: 0.5rem;
   color: rgb(85, 85, 85);
+  flex-grow: 1;
+  /* text-align: justify; */
+}
+
+#projects .btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 /* CONTACT */

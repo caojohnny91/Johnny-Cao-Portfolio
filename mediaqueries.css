@@ -132,7 +132,8 @@
     font-size: 2rem;
   }
 
-  .text-container {
+  .text-container,
+  .project-description {
     text-align: justify;
   }
 }
