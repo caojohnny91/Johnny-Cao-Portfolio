@@ -408,8 +408,14 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-bottom: -0.5rem;
   color: black;
+}
+
+.project-description {
+  margin: 0.5rem;
+  color: rgb(85, 85, 85);
 }
 
 /* CONTACT */
