@@ -415,7 +415,7 @@ article .icon {
 
 .project-title {
   margin: 0.5rem;
-  margin-bottom: -0.5rem;
+  margin: -1rem 0 -0.5rem 0;
   color: black;
 }
 
@@ -423,7 +423,7 @@ article .icon {
   margin: 0.5rem;
   color: rgb(85, 85, 85);
   flex-grow: 1;
-  /* text-align: justify; */
+  text-align: left;
 }
 
 #projects .btn-container {
